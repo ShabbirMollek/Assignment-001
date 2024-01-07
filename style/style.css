@@ -82,7 +82,7 @@
                 background-position: center;
                 background-size: cover; 
                 height: 600px;
-                margin-bottom: 60px;
+                margin-bottom: 100px;
 }
 .container-content-2 h1{
                 color: #FFF;
@@ -131,4 +131,56 @@
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
+}
+.container-3{
+                display: flex;
+                text-align: center;
+                align-items: center;
+                height: 450px;
+                background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+
+                SVG
+                <svg xmlns="http://www.w3.org/2000/svg" width="1320" height="482" viewBox="0 0 1320 482" fill="none">
+                <path d="M1304 0H16C7.16344 0 0 7.16344 0 16V466C0 474.837 7.16343 482 16 482H1304C1312.84 482 1320 474.837 1320 466V16C1320 7.16344 1312.84 0 1304 0Z" fill="url(#paint0_linear_114_9913)" fill-opacity="0.1"/>
+                <defs>
+                <linearGradient id="paint0_linear_114_9913" x1="660" y1="0" x2="660" y2="482" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#FF0000"/>
+                <stop offset="1" stop-color="#FF0000" stop-opacity="0"/>
+                </linearGradient>
+                </defs>
+                </svg>
+                Colors
+                Hex
+                Linear gradient
+                Export
+                
+                Copy
+                Ctrl+C
+                Screenreader support for the board is currently disabled. To enable it via Accessibility settings, press Ctrl+/, type Accessibility Settings, and press Enter. To see available keyboard shortcuts, enter Ctrl+Shift+Question mark .
+                 ;
+
+                border-radius:16px ; 
+                
+}
+.btn-primary-1{
+                width: 10%;
+                padding: 15px;
+                font-size: 15px;
+                background-color: #F00;
+                color:#FFF;
+                border: 1px solid #F00;
+                border-radius: 8px;
+                margin-top: 30px;
+}
+.btn-primary-1:hover{
+                background-color:rgb(26, 104, 139);
+                color: yellow;
+                border: 1px solid rgb(26, 104, 139) ;
+}
+.container-content-3 h3{
+                text-align: center;
+                font-size: 28px;
+                font-weight: 600;
+                line-height: 40px; 
+                text-transform: capitalize;
 }
