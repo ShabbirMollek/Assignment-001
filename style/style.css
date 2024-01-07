@@ -1,0 +1,33 @@
+*{
+                width: 100%;
+                max-width: 1320px;
+                margin: 0 auto;  
+}
+/* header style */
+.hero-section{
+               
+                background: linear-gradient(rgb(0, 0, 0), rgba(255, 255, 255, 0)), url('../style/B9A1-New-Year-New-Mission-main/resources/Banner Image.png');
+                border-radius: 16px;
+                background-position: center;
+                background-size: cover;
+                height:600px ;
+                margin-top: 20px;
+
+
+}
+.hero-section-greeting{
+                color: #FFF;
+                text-align: center;
+                font-size: 32px;
+                font-weight: 400;
+                padding-top: 220px;              
+}
+.hero-section-title{
+
+                color: #FFF;
+                text-align: center;
+                font-size: 72px;
+                font-weight: 900;
+                
+}
+/* main section style */
