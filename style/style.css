@@ -289,4 +289,52 @@
                 z-index: 2;
 
 }
+/* container-6 styles */
+
+.container-6{
+                
+                height: 100vh;
+                margin-top: 60px;
+                
+}
+.container-content-7{
+                display: flexbox;
+                flex-direction: column;
+                text-align: start;
+              
+                
+}
+.container-content-7 h1{
+
+                color: #070211;
+                font-size: 48px;
+                font-weight: 900;
+                text-transform: capitalize;
+                margin-left: 3px;
+                
+}
+.container-content-7 p{
+                color: rgba(7, 2, 17, 0.60);
+                font-size: 22px;
+                font-weight: 400;
+                line-height: 32px;
+                margin-left: 3px;
+                margin-bottom: 10px;
+               
+
+}
+.container-content-8{
+                display: flex;
+                gap: 10px;
+                flex-wrap: wrap;
+                width: 100%;
+
+}
+.container-content-8 img{
+               
+                height: 375px;
+                width: 424px;
+                margin: auto ;
+               
+}
 
