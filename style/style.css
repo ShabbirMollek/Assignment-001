@@ -408,6 +408,41 @@ footer{
                 height: 610px;
                 margin-top: 120px; 
                 background: #070211;
+               
                 
-}
+               
 
+}
+.footer-content{
+                display: flex;    
+                justify-content: space-between;    
+                height: 150px;
+                align-items: center;
+                justify-items: center;
+                width: 100%;
+                
+
+               
+}
+.footer-contact{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+}
+.footer-contact-1{
+                display: flex;
+                margin-left: 280px;
+}
+.location{
+                margin-left: 284px;
+}
+.footer-content p{
+                color: #FFF;
+                font-size: 24px;
+                font-weight: 500;
+                line-height: 40px; 
+
+}
+.footer-content-1{
+                border: 1px solid red;
+}
