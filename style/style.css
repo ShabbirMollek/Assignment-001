@@ -1,6 +1,6 @@
 *{
                 width: 100%;
-                max-width: 1320px;
+                /* max-width: 1320px; */
                 margin: 0 auto;  
 }
 /* header style */
@@ -12,6 +12,7 @@
                 background-size: cover;
                 height:600px ;
                 margin-top: 20px;
+                max-width: 1320px;
 
 
 }
@@ -38,6 +39,7 @@
                 text-align: center;
                 align-items: center;
                 margin-top: 80px;
+                max-width: 1320px;
 }
 .container-1 h1{
 
@@ -83,6 +85,7 @@
                 background-size: cover; 
                 height: 600px;
                 margin-bottom: 100px;
+                max-width: 1320px;
 }
 .container-content-2 h1{
                 color: #FFF;
@@ -138,9 +141,7 @@
                 align-items: center;
                 height: 450px;
                 background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-
-              
-              
+                max-width: 1320px; 
                 border-radius:16px ; 
                 
 }
@@ -173,6 +174,7 @@
                 align-items: center;
                 justify-content: space-between;
                 height:60vh ;
+                max-width: 1320px;
 }
 .container-content-4 h3{
                 color: #F00;
@@ -222,6 +224,7 @@
 .container-5{
           
             height: 100vh;
+            max-width: 1320px;
            
             /* display: flex;
             flex-direction:column ;     */
@@ -250,6 +253,7 @@
                 display: flex;
                 flex-direction: column;
                 flex-wrap: wrap;
+               
 
 }
 .container-6-img-1{
@@ -294,13 +298,15 @@
 .container-6{
                 
                 height: 100vh;
-                margin-top: 60px;
+                margin-top: 100px;
+                max-width: 1320px;
                 
 }
 .container-content-7{
-                display: flexbox;
+                display: flex;
                 flex-direction: column;
                 text-align: start;
+                
               
                 
 }
@@ -348,6 +354,7 @@
                align-items: center;
                display: flex;
                flex-direction: column;
+               max-width: 1320px;
 }
 .container-7-img{
                 width: 150px;
@@ -395,4 +402,12 @@ form{
                 border: 1px solid white;
 }
 
+/* footer style */
+
+footer{
+                height: 610px;
+                margin-top: 120px; 
+                background: #070211;
+                
+}
 
