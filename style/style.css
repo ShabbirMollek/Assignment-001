@@ -139,26 +139,8 @@
                 height: 450px;
                 background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
 
-                SVG
-                <svg xmlns="http://www.w3.org/2000/svg" width="1320" height="482" viewBox="0 0 1320 482" fill="none">
-                <path d="M1304 0H16C7.16344 0 0 7.16344 0 16V466C0 474.837 7.16343 482 16 482H1304C1312.84 482 1320 474.837 1320 466V16C1320 7.16344 1312.84 0 1304 0Z" fill="url(#paint0_linear_114_9913)" fill-opacity="0.1"/>
-                <defs>
-                <linearGradient id="paint0_linear_114_9913" x1="660" y1="0" x2="660" y2="482" gradientUnits="userSpaceOnUse">
-                <stop stop-color="#FF0000"/>
-                <stop offset="1" stop-color="#FF0000" stop-opacity="0"/>
-                </linearGradient>
-                </defs>
-                </svg>
-                Colors
-                Hex
-                Linear gradient
-                Export
-                
-                Copy
-                Ctrl+C
-                Screenreader support for the board is currently disabled. To enable it via Accessibility settings, press Ctrl+/, type Accessibility Settings, and press Enter. To see available keyboard shortcuts, enter Ctrl+Shift+Question mark .
-                 ;
-
+              
+              
                 border-radius:16px ; 
                 
 }
@@ -183,4 +165,54 @@
                 font-weight: 600;
                 line-height: 40px; 
                 text-transform: capitalize;
+}
+/* container-4 style */
+.container-4{
+                background: #FFF;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                height:80vh ;
+}
+.container-content-4 h3{
+                color: #F00;
+                text-align: start;
+                font-size: 24px;
+                font-weight: 500;              
+}
+.container-content-4 h2{
+                color: #070211;
+                font-size: 48px;
+                font-weight: 800;
+                text-transform: capitalize;
+                margin: 10px 0px;
+                
+
+}
+.container-content-4 p{
+                color: gray;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 24px;
+}
+.container-content-img {
+                width: 750px;
+                height: 750px;
+                
+                padding: 10%;
+                
+                
+               
+}
+.red-border{
+              border: 7px solid red;
+              border-radius: 50%;  
+              padding:8% ;
+              margin-top: 220px;
+}
+.container-content-4 img {
+                height: 130px;
+                width: 130px;
+                margin-left: 40px;
+                margin-top: 20px;
 }
