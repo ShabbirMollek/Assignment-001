@@ -377,7 +377,7 @@
 form{
                 width: 650px;
                 height: 60px;
-                border: 1px solid wheat ;
+               
                 margin-top: 40px;
                 display: flex;
 
@@ -390,6 +390,9 @@ form{
                 border-radius:0 24px 24px 0 ;
                 color: white;
 }
-.container-7{
-                
+
+.container-7 input{
+                border: 1px solid white;
 }
+
+
