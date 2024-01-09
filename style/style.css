@@ -405,44 +405,76 @@ form{
 /* footer style */
 
 footer{
-                height: 610px;
-                margin-top: 120px; 
-                background: #070211;
                
-                
-               
-
+                height: 480px;
+                background-color: #070211;
+                align-items: center;
+                 
+                max-width: 1320px;
+                margin-top: 50px;
+                border-radius: 8px;
+                margin-bottom: 40px;
+                 
 }
 .footer-content{
-                display: flex;    
-                justify-content: space-between;    
-                height: 150px;
+                display: flex;
+                justify-content: center;
                 align-items: center;
-                justify-items: center;
-                width: 100%;
-                
-
-               
+                margin-left: 240px;
+              
 }
 .footer-contact{
                 display: flex;
                 flex-direction: column;
-                width: 100%;
+               
 }
 .footer-contact-1{
                 display: flex;
-                margin-left: 280px;
+                
 }
 .location{
-                margin-left: 284px;
-}
-.footer-content p{
                 color: #FFF;
-                font-size: 24px;
+                font-size: 20px;
+                font-style: normal;
                 font-weight: 500;
                 line-height: 40px; 
+                margin-top: 10px;
+                margin-bottom: 15px;
+}
+
+.footer-content-1 img{
+                width: 52px;
+                height: 52px;
+               
 
 }
+.social-icon{
+                display: flex;
+                padding: 50px 10px;
+                
+               
+               
+}
 .footer-content-1{
-                border: 1px solid red;
+                color: #FFF;
+                display: flex;
+                margin-top: 80px;
+                text-align: center;
+
+}
+.footer-content-1 p {
+                color: #FFF;
+
+               font-size: 16px;
+               font-style: normal; 
+               font-weight: 500;
+               line-height: normal;
+
+}
+.footer-content-1 h6{
+                color: #FFF;
+               font-size: 20px;
+               font-style: normal; 
+               font-weight: 500;
+               line-height: normal;
 }
